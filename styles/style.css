@@ -1,39 +1,4 @@
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-ul,
-ol {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
-  text-shadow: 2px 2px 0px var(--bg-span, #FF0070);
-}
-
-a:hover {
-  border-block-end: 1px solid var(--text-color_content);
-}
-
-a:focus {
-  outline: none;
-}
-
-a:focus-visible {
-  outline: 1px solid var(--text-color_content);
-}
-
 .page {
   max-width: 1024px;
   background-color: var(--background-color);
@@ -114,7 +79,7 @@ a:focus-visible {
 .header_record {
   color: var(--accent-color);
   font-size: var(--text-size);
-  font-family: 'IBM Plex Mono', sans-serif;
+  font-family: var(--font-family);
   display: flex;
   align-items: center;
   position: absolute;
@@ -189,6 +154,11 @@ a:focus-visible {
   padding: 0 var(--padding);
   margin-block-end: 50px;
   gap: 20px;
+}
+
+.link_text {
+  text-decoration: none;
+  text-shadow: 2px 2px 0px var(--bg-span, #FF0070);
 }
 
 .title-no-font {

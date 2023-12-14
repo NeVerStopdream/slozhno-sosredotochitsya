@@ -22,7 +22,9 @@ p {
   margin: 0;
 }
 
-ul {
+ul,
+ol {
+  list-style: none;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -39,4 +41,16 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+a:hover {
+  border-block-end: 1px solid var(--text-color_content);
+}
+
+a:focus {
+  outline: none;
+}
+
+a:focus-visible {
+  outline: 1px solid var(--text-color_content);
 }
