@@ -8,10 +8,24 @@
   --bg_img: url(..//images/cover-image-light.png);
   --shadow_title: #FF8DCB;
   --color_title: #FFC2E6;
+  --outline_hover: 1px solid rgba(50, 49, 45, 0.40);
 }
 
 .theme_light .header_record {
   display: none;
+}
+
+@media (width >= 768px) {
+  :root {
+  --padding: 20px;
+  --margin: 20px;
+  }
+}
+
+@media (width >= 1024px) {
+  .page.theme_light {
+  --shadow_title: #FF0070;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -24,6 +38,7 @@
   --bg_img: url(..//images/cover-image-light.png);
   --shadow_title: #FF8DCB;
   --color_title: #FFC2E6;
+  --outline_hover: 1px solid rgba(50, 49, 45, 0.40);
   }
 
   .theme_auto .header_record {

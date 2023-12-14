@@ -2,7 +2,7 @@
   --accent-color: #FF0070;
   --background-color: #000028;
   --text-size: 18px;
-  --font-family: 'IBM Plex mono';
+  --font-family: 'IBM Plex mono', sans-serif;
   --bg-span: #FF0070;
   --text-color: #000028;
   --text-color_content: #F1B2CE;
@@ -11,5 +11,6 @@
   --bg_img: url(../images/cover-image-dark.png);
   --shadow_title: #FF0070;
   --color_title: #DB00FF;
+  --outline_hover: 1px solid rgba(255, 0, 112, 0.40);
 }
 
